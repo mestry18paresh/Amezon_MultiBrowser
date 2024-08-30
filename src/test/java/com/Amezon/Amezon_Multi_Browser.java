@@ -75,7 +75,7 @@ public class Amezon_Multi_Browser {
 	@AfterTest
 	public void afterTest() {
 
-		System.out.println("All Test are Completed");
+		System.out.println("All Test are Completed........");
 
 	}
 
