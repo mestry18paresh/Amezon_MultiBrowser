@@ -20,7 +20,7 @@ public class Amezon_Multi_Browser {
 	String bName;
 
 
-	@Test
+	@Test(priority = 1)
 	public void chrome() {
 
 		driver = new ChromeDriver();
@@ -33,7 +33,7 @@ public class Amezon_Multi_Browser {
 
 	}
 
-	@Test
+	@Test(priority = 2)
 	public void edge() {
 
 		driver = new EdgeDriver();
@@ -46,7 +46,7 @@ public class Amezon_Multi_Browser {
 
 	}
 
-	@Test
+	@Test(priority = 3)
 	public void FirFox() {
 
 		driver = new FirefoxDriver();
